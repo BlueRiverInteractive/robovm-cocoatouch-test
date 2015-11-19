@@ -5,4 +5,4 @@ mvn clean install -Dmaven.test.skip=true
 cd ../../robovm-maven-plugin
 mvn clean install -Dmaven.test.skip=true
 cd ../robovm-cocoatouch-test/ios
-mvn compile robovm:iphone-sim
+mvn compile robovm:install -Drobovm.archs=arm64
