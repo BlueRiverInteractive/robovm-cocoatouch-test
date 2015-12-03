@@ -1,1 +1,9 @@
+*~
+*.o
+*.iml
+a.out
+*.class
+.*
+/target/
 ios/target
+/tmp/
